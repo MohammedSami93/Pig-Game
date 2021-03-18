@@ -15,6 +15,12 @@ const btnHold = document.querySelector('.btn--hold');
 let scores, currentScore, activePlayer, playing;
 
 const init = function () {
+  let player0Name = prompt('Player 1');
+  let player1Name = prompt('Player 2');
+
+  document.querySelector('#name--0').textContent = player0Name;
+  document.querySelector('#name--1').textContent = player1Name;
+
   scores = [0, 0];
   currentScore = 0;
   activePlayer = 0;
