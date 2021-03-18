@@ -101,5 +101,3 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', init);
-
-console.log("heeeeeeeeeeeeeeeeeeeeey I'm here");
